@@ -21,6 +21,4 @@ $(document).ready(function(){
         $(this).toggleClass('completed');
     });
 
-
-
 })
