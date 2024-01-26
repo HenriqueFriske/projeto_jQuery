@@ -1,0 +1,80 @@
+*{
+    background-color: rgb(34, 33, 33);;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: black;
+    padding: 24px 0;
+    display: flex;
+    border-bottom: 16px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+h1{
+    background-color: black;
+}
+
+header button{
+    margin-left: 16px;
+    background-color: green;
+}
+
+form{
+    max-height: 120px;
+    background-color: rgb(34, 33, 33);
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form form h2{
+    display: block;
+    margin-bottom: 16px;
+}
+
+input{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 40px;
+
+    
+}
+input, button{
+    padding: 8px;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+#adicionar{
+    
+    background-color: green;
+    color: white;
+}
+#cancelar{
+    background-color: red;
+}
+
+li{
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+li :hover{
+    background-color: black;
+}
+
+.completed {
+    text-decoration: line-through;
+}
